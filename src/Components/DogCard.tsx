@@ -9,13 +9,11 @@ export const DogCard = ({
   onTrashIconClick,
   onEmptyHeartClick,
   onHeartClick,
-  isLoading,
 }: {
   dog: Dog;
   onTrashIconClick: () => void;
   onEmptyHeartClick: () => void;
   onHeartClick: () => void;
-  isLoading: boolean;
 }) => {
   return (
     <div className="dog-card">
@@ -25,14 +23,12 @@ export const DogCard = ({
           onClick={() => {
             onHeartClick();
           }}
-          disabled={isLoading}
         />
       ) : (
         <FavoriteButton
           onClick={() => {
             onEmptyHeartClick();
           }}
-          disabled={isLoading}
         />
       )}
 
@@ -41,7 +37,6 @@ export const DogCard = ({
         onClick={() => {
           onTrashIconClick();
         }}
-        disabled={isLoading}
       />
 
       {/* Ignore this  */}
@@ -52,7 +47,7 @@ export const DogCard = ({
       {/* Ignore this  */}
       {/* You can temporarily set a favorite overlay after a user favorites a dog */}
       {/* Try making className "favorite-overlay active"*/}
-      {isLoading && <div className={`loading-overlay`}></div>}
+      {/* {isLoading && <div className={`loading-overlay`}></div>} */}
 
       {/* Ignore this  */}
       {/* You can temporarily set a unfavorite overlay after a user favorites a dog */}

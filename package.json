@@ -14,7 +14,8 @@
   "dependencies": {
     "@faker-js/faker": "^8.0.2",
     "@types/lodash-es": "^4.17.7",
-    "json-server": "^0.17.3",
+    "json-server": "^0.17.4",
+    "lint": "^1.1.2",
     "lodash-es": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -35,5 +36,10 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
-  }
+  },
+  "description": "In this assignment we will be re-building our dog-favoriting app called Pup- E-Picker. Don't even try this assignment till you've done the first one please 🙏.",
+  "main": "reseed-db.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

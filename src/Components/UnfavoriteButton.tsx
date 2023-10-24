@@ -2,13 +2,7 @@
 
 import { Icons } from "../icons";
 
-export const UnfavoriteButton = ({
-  onClick,
-  disabled,
-}: {
-  disabled: boolean;
-  onClick: () => void;
-}) => (
+export const UnfavoriteButton = ({ onClick }: { onClick: () => void }) => (
   <img
     src={Icons.Heart}
     alt=""
@@ -16,12 +10,9 @@ export const UnfavoriteButton = ({
     style={{
       width: 40,
       border: 0,
-      cursor: disabled ? "no-drop" : "pointer",
     }}
     onClick={() => {
-      if (!disabled) {
-        onClick();
-      }
+      onClick();
     }}
   />
 );

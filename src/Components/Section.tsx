@@ -1,13 +1,19 @@
 import { ReactNode } from "react";
+import { UseDogs } from "../Providers/DogsProvider";
 
 export const Section = ({
   label,
   children,
 }: {
-  // No more props than these two allowed
   label: string;
   children: ReactNode;
 }) => {
+  const { allDogs, activeFilter, onClickFunctions } = UseDogs();
+  const favDogs = allDogs.reduce(
+    (sum, dog) => (dog.isFavorite ? sum + 1 : sum),
+    0
+  );
+  const unfavDogs = allDogs.length - favDogs;
   return (
     <section id="main-section">
       <div className="container-header">
@@ -15,27 +21,31 @@ export const Section = ({
         <div className="selectors">
           {/* This should display the favorited count */}
           <div
-            className={`selector ${"active"}`}
+            className={`selector ${
+              activeFilter === "favorited" ? "active" : ""
+            }`}
             onClick={() => {
-              alert("click favorited");
+              onClickFunctions.toggleActiveFilter("favorited");
             }}
           >
-            favorited ( {0} )
+            favorited ( {favDogs} )
           </div>
 
           {/* This should display the unfavorited count */}
           <div
-            className={`selector ${""}`}
+            className={`selector ${
+              activeFilter === "unfavorited" ? "active" : ""
+            }`}
             onClick={() => {
-              alert("click unfavorited");
+              onClickFunctions.toggleActiveFilter("unfavorited");
             }}
           >
-            unfavorited ( {10} )
+            unfavorited ( {unfavDogs} )
           </div>
           <div
-            className={`selector ${""}`}
+            className={`selector ${activeFilter === "create" ? "active" : ""}`}
             onClick={() => {
-              alert("clicked create dog");
+              onClickFunctions.toggleActiveFilter("create");
             }}
           >
             create dog
