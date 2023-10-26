@@ -61,9 +61,7 @@ export const DogsProvider = ({ children }: { children: ReactNode }) => {
     },
 
     deleteDog: (id: number) => {
-      const copyAllDogs = allDogs;
-      allDogs.map((dog, i) => (dog.id === id ? copyAllDogs.splice(i, 1) : dog));
-      setAllDogs([...copyAllDogs]);
+      setAllDogs(allDogs.filter((dog) => dog.id !== id));
       Requests.deleteDog(id)
         .then(() => toast.success("Successfully deleted dog."))
         .catch((error: object) => resetAllDogs(error));
