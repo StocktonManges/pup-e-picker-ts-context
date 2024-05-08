@@ -1,95 +1,144 @@
 {
   "dogs": [
     {
-      "name": "Anthony",
-      "image": "/public/assets/cowardly.png",
-      "description": "plum Savings female Ghana programming solutions miniaturise",
+      "name": "Iliana",
+      "image": "/assets/cowardly.png",
+      "description": "Data Recycled invest however solution radian Central",
+      "isFavorite": false,
+      "id": 0
+    },
+    {
+      "name": "Angelina",
+      "image": "/assets/corgi.png",
+      "description": "Buckinghamshire Specialist drive withdrawal networks Zinc firewall",
       "isFavorite": false,
       "id": 1
     },
     {
-      "name": "Kenton",
-      "image": "/public/assets/cowardly.png",
-      "description": "Bedfordshire Human tempora Managed Electronic Directives Nissan expedite",
+      "name": "Carolanne",
+      "image": "/assets/blue-heeler.png",
+      "description": "functionalities Gasoline backing before Electric Chevrolet bypass Southeast",
+      "isFavorite": true,
+      "id": 2
+    },
+    {
+      "name": "Constantin",
+      "image": "/assets/boxer.png",
+      "description": "Dynamic matrix Rock hmph instantly avaricious Recycled hiccough",
+      "isFavorite": true,
+      "id": 3
+    },
+    {
+      "name": "Bobby",
+      "image": "/assets/blue-heeler.png",
+      "description": "slimy illo Account tenderize virtual Missouri system",
+      "isFavorite": false,
+      "id": 4
+    },
+    {
+      "name": "Lorna",
+      "image": "/assets/boxer.png",
+      "description": "Intersex frictionless Factors OCR salmon Director Georgia Product",
+      "isFavorite": true,
+      "id": 5
+    },
+    {
+      "name": "Chance",
+      "image": "/assets/dalmation.png",
+      "description": "rapidly strategize meanwhile Edna Future",
+      "isFavorite": true,
+      "id": 6
+    },
+    {
+      "name": "Louie",
+      "image": "/assets/corgi.png",
+      "description": "Legacy Lutetium payment Metical Cargo",
       "isFavorite": true,
       "id": 7
     },
     {
-      "name": "Art",
-      "image": "/public/assets/blue-heeler.png",
-      "description": "Global ha Genderflux payment Metal pixel Money",
+      "name": "Kristofer",
+      "image": "/assets/blue-heeler.png",
+      "description": "wisely UTF8 metrics gee SQL",
+      "isFavorite": false,
+      "id": 8
+    },
+    {
+      "name": "Hobart",
+      "image": "/assets/boxer.png",
+      "description": "Cargo withdrawal hm Liberian Lek Divide Iceland",
+      "isFavorite": false,
+      "id": 9
+    },
+    {
+      "name": "Vivien",
+      "image": "/assets/chihuahua.avif",
+      "description": "Solutions off olive Accountability Hawaii withdrawal Northwest",
+      "isFavorite": false,
+      "id": 10
+    },
+    {
+      "name": "Jailyn",
+      "image": "/assets/boxer.png",
+      "description": "partnerships Forward Franc Bicycle backing",
       "isFavorite": true,
+      "id": 11
+    },
+    {
+      "name": "Amos",
+      "image": "/assets/cowardly.png",
+      "description": "Strategist female Moscovium cum Manager",
+      "isFavorite": false,
       "id": 12
     },
     {
-      "name": "Lambert",
-      "image": "/public/assets/chihuahua.avif",
-      "description": "drive reek Marvin compress executive Coordinator Track bluetooth",
+      "name": "Deondre",
+      "image": "/assets/chihuahua.avif",
+      "description": "Checking integrated Awesome synthesizing Colombian Solutions Electric",
+      "isFavorite": true,
+      "id": 13
+    },
+    {
+      "name": "Dan",
+      "image": "/assets/cowardly.png",
+      "description": "Bicycle Samarium Ethiopia Configuration South",
       "isFavorite": false,
       "id": 14
     },
     {
-      "name": "Kris",
-      "image": "/public/assets/blue-heeler.png",
-      "description": "Beryllium Chevrolet partnerships focus Southeast Poland salmon",
-      "isFavorite": true,
+      "name": "Damien",
+      "image": "/assets/boxer.png",
+      "description": "Electronics Hybrid up input East reboot Refined",
+      "isFavorite": false,
       "id": 15
     },
     {
-      "name": "Trudie",
-      "image": "/public/assets/boxer.png",
-      "description": "connecting blue National Movies Interactions ack Tandem Shirt",
+      "name": "Ivah",
+      "image": "/assets/dalmation.png",
+      "description": "Card Argentina architecture ew Beauty transmitting mobile",
       "isFavorite": true,
       "id": 16
     },
     {
-      "name": "Meaghan",
-      "image": "/public/assets/dalmation.png",
-      "description": "lux Manager North applications Rufiyaa",
+      "name": "Sterling",
+      "image": "/assets/chihuahua.avif",
+      "description": "Rustic yahoo Automotive Berkshire male Tennessee redundant male",
       "isFavorite": true,
       "id": 17
     },
     {
-      "name": "Vallie",
-      "image": "/public/assets/chihuahua.avif",
-      "description": "Lead synergistic noisy operating Passenger female Salad Rubber",
-      "isFavorite": true,
+      "name": "Charley",
+      "image": "/assets/cowardly.png",
+      "description": "Polestar Northwest Gasoline suddenly Identity for solid Market",
+      "isFavorite": false,
       "id": 18
     },
     {
-      "name": "Newton",
-      "image": "/public/assets/blue-heeler.png",
-      "description": "Planner maxime invoice ROI granular ouch Franc",
+      "name": "Meghan",
+      "image": "/assets/chihuahua.avif",
+      "description": "Chicken 1080p emergence woman proactive Gloves barn navigate",
       "isFavorite": true,
       "id": 19
-    },
-    {
-      "name": "Jimney",
-      "description": "He's a cricket.",
-      "image": "/public/assets/boxer.jpeg",
-      "isFavorite": false,
-      "id": 20
-    },
-    {
-      "name": "Random",
-      "description": ";alskjd ;lk f;laksjdf;l asdfjksad.",
-      "image": "/public/assets/blue-heeler.png",
-      "isFavorite": false,
-      "id": 21
-    },
-    {
-      "name": "Killian",
-      "description": ";alsdkjf;laskdj f;isaj dfasdfa.",
-      "image": "/public/assets/corgi.png",
-      "isFavorite": false,
-      "id": 22
-    },
-    {
-      "name": "Indigo",
-      "description": "He is not left handed!",
-      "image": "/public/assets/blue-heeler.png",
-      "isFavorite": true,
-      "id": 23
     }
   ]
 }

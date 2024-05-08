@@ -63,7 +63,7 @@ export const DogsProvider = ({ children }: { children: ReactNode }) => {
     deleteDog: (id: number) => {
       setAllDogs(allDogs.filter((dog) => dog.id !== id));
       Requests.deleteDog(id)
-        .then(() => toast.success("Successfully deleted dog."))
+        .then((response) => toast.success(response.message))
         .catch((error: object) => resetAllDogs(error));
     },
 

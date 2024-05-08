@@ -30,7 +30,7 @@ export const Requests = {
       .then((result) => dogSchema.parse(result));
   },
 
-  deleteDog: (id: number): Promise<Dog> =>
+  deleteDog: (id: number): Promise<{ message: string }> =>
     fetch(`${baseURL}/dogs/${id}`, {
       method: "DELETE",
     })
@@ -40,7 +40,7 @@ export const Requests = {
         }
         return response.json();
       })
-      .then((result) => dogSchema.parse(result)),
+      .then(() => ({ message: "Successfully deleted dog" })),
 
   patchFavoriteForDog: (id: number, moveToFavorite: boolean): Promise<Dog> =>
     fetch(`${baseURL}/dogs/${id}`, {
